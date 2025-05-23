@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "llm_tool_harness"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="zhu-weijie", email="byzhubaiyuan@gmail.com" },
 ]
@@ -14,7 +14,6 @@ readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Intended Audience :: Developers",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
@@ -23,6 +22,7 @@ classifiers = [
 dependencies = [
   "anthropic~=0.52.0",
 ]
+license = {text = "MIT License"}
 
 [project.optional-dependencies]
 dev = [
